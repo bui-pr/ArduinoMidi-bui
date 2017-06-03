@@ -20,7 +20,7 @@ int lastVal7 = 0;
 
 void setup()
 {
-    MIDI.begin(MIDI_CHANNEL_OMNI);
+  MIDI.begin(MIDI_CHANNEL_OMNI);
 }
 
 void loop()
@@ -65,7 +65,7 @@ void loop()
    MIDI.sendControlChange(10, val7, 1);}         // (CC No, 値 , MIDI ch)
    lastVal7 = val7;
 
-delay(10);
+   delay(10);
 }
 
 
