@@ -368,4 +368,7 @@ void loop()
     }else{
 
     }
+
+    delay(10);
+
 }
